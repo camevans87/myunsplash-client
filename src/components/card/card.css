@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  background-color: #000;
+  border-radius: 16px;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.img:hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  transition: opacity 0.45s ease;
+}
+
+.img-label {
+  position: 'absolute';
+  left: 24px;
+  bottom: 33px;
+}
+
+.label-font {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #fff;
+}
